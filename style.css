@@ -4,14 +4,9 @@ h1 {
   font-style: italic;
 }
 
-.title1 {
-  color: red;
-  font-size: 40px;
-  width: 500px;
-  text-align: center;
-  font-style: italic;
-  margin: auto;
+.hero-icon {
+  padding: 5px;
+  font-size: 32px;
+  margin-right: 80px;
+  color: rgb(48, 35, 235);
 }
-
-
-

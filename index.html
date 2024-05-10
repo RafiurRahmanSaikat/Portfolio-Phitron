@@ -6,10 +6,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css"
+      integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body class="m-4 bg-dark">
+  <body class="m-4 bg-dark text-white">
     <!-- Navbar Started -->
-    <nav class="navbar">
+    <nav class="navbar m-4">
       <img
         src="./images/logo.png"
         alt="Logo"
@@ -37,8 +51,39 @@
         </a>
       </div>
     </nav>
-
     <!-- Navbar End -->
+
+    <!-- Hero Start -->
+
+    <section class="d-flex justify-content-around align-items-center mt-5">
+      <div class="m-4">
+        <p class="fs-1 fw-bold text-info">
+          Hi ! <br />I'm Rafiur Rahman Saikat
+        </p>
+        <h5>Web Developer || React Developer || Programmer</h5>
+        <p class="mt-5 w-75">
+          I am an enthusiastic JavaScript developer with knowing some framework
+          for the frontend and the backend. I know Basic PHP and MySQL but
+          basically a MERN developer.
+        </p>
+        <div class="hero-icon">
+          <a href=""> <i class="fa-brands m-3 fa-github"></i></a>
+          <a href=""> <i class="fa-brands m-3 fa-linkedin"></i></a>
+          <a href=""> <i class="fa-brands m-3 fa-youtube"></i></a>
+          <a
+            href="./resume.pdf"
+            download="Rafiur Rahman Saikat Resume"
+            type="button"
+            class="btn btn-info"
+          >
+            Resume
+            <img src="./images/download.png" alt="resume" />
+          </a>
+        </div>
+      </div>
+
+      <img class="rounded m-4" src="./images/devlogo.png" alt="devlogo" />
+    </section>
   </body>
   <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 </html>
