@@ -1,0 +1,17 @@
+h1 {
+  color: rebeccapurple;
+  font-size: 80px;
+  font-style: italic;
+}
+
+.title1 {
+  color: red;
+  font-size: 40px;
+  width: 500px;
+  text-align: center;
+  font-style: italic;
+  margin: auto;
+}
+
+
+
